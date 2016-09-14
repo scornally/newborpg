@@ -22,7 +22,7 @@ void setup(){
 
 void draw(){
   background(newBoMap);
-  if(walkingLeft) x = x - 2;
+  if(walkingLeft) x = x - 3;
   image(currentSprite, x, y);
   checkHitBoxes();
 }
